@@ -1,0 +1,5 @@
+<h1>{{ .Action }} {{ .Title }}</h1>
+<form action="/s/{{ .Title }}" method="POST">
+	<textarea name="body">{{ .Body }}</textarea><br>
+	<input type="submit" value="Save">
+</form>
